@@ -29,7 +29,7 @@
     <p>So that several people can see the same list, and so that it comes back after reinstalling, the app keeps a copy of it in Apple’s iCloud. Before the copy leaves the device it is encrypted with a key derived from your list code.</p>
     <ul>
       <li>The developer can see that encrypted records exist, but does not have the code and so cannot read what is in them.</li>
-      <li>Anyone who has the list code or its invitation can see and change the list. Send them only to people who should be on it.</li>
+      <li>Anyone who has the list code or its invitation can see and change the list, and also receives the AI key entered for it, if there is one. Send them only to people who should be on it.</li>
       <li>The list code is also kept in your iCloud Keychain and iCloud key-value storage, so that the list returns after a reinstall.</li>
     </ul>
     <p>Sync requires iCloud to be signed in on the device and is also covered by <a href="https://www.apple.com/legal/privacy/">Apple’s privacy policy</a>.</p>
@@ -43,7 +43,7 @@
     <p>This feature is off until you enter your own API key in the settings, for Google Gemini or Anthropic Claude. While it is on, the text of what you said or typed, together with the product names you have already used, is sent to the provider you chose, through your own account and key with that provider.</p>
     <ul>
       <li>That information is covered by the provider’s own terms and privacy policy. On Google’s free tier, for example, Google may use the content to improve its products.</li>
-      <li>The key is stored in the device Keychain and is never sent to the developer.</li>
+      <li>The key is stored in the device Keychain. So that it does not have to be entered on every phone, it is passed to the other devices on the list inside the list’s encrypted copy in iCloud. It is never sent to the developer, and the developer cannot read it.</li>
       <li>Removing the key in the settings turns the feature off.</li>
     </ul>
   </section>
