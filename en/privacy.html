@@ -18,38 +18,38 @@
 <main class="wrap">
   <h1>Your list stays yours</h1>
   <p class="lede">Nigmar! (נגמר!) has no account, no ads, no analytics and no tracking. The developer cannot read your lists.</p>
-  <p class="meta">Effective November 17, 2026 · Applies to Nigmar! for iPhone</p>
+  <p class="meta">Effective November 26, 2026 · Applies to Nigmar! for iPhone and Android</p>
 
   <section>
     <h2>What is stored on your iPhone</h2>
-    <p>Your lists, shopping history, the amounts you write down, the receipt photos you attach and the sections you choose are kept in the app’s own storage on your iPhone.</p>
+    <p>Your lists, shopping history, the amounts you write down, the receipt photos you attach and the sections you choose are kept in the app’s own storage on your phone.</p>
   </section>
   <section>
-    <h2>Sync and backup in iCloud</h2>
-    <p>So that several people can see the same list, and so that it comes back after reinstalling, the app keeps a copy of it in Apple’s iCloud. Before the copy leaves the device it is encrypted with a key derived from your list code.</p>
+    <h2>Sync and backup</h2>
+    <p>So that several people can see the same list, on iPhone and Android, and so that it comes back after reinstalling, the app keeps a copy of it on the app’s sync server (run on Cloudflare), and on iPhone also in Apple’s iCloud. Before the copy or a receipt photo leaves the device it is encrypted with a key derived from your list code.</p>
     <ul>
-      <li>The developer can see that encrypted records exist, but does not have the code and so cannot read what is in them.</li>
+      <li>The developer can see that encrypted records exist and when they were updated, but does not have the code and so cannot read what is in them. The server keeps no account, name, phone number or e-mail address.</li>
       <li>Anyone who has the list code or its invitation can see and change the list, and also receives the AI key entered for it, if there is one. Send them only to people who should be on it.</li>
-      <li>The list code is also kept in your iCloud Keychain and iCloud key-value storage, so that the list returns after a reinstall.</li>
+      <li>On iPhone the list code is also kept in your iCloud Keychain and iCloud key-value storage, and on Android in Google’s backup of the app’s data, so that the list returns after a reinstall. The AI key is left out of the Android backup.</li>
     </ul>
-    <p>Sync requires iCloud to be signed in on the device and is also covered by <a href="https://www.apple.com/legal/privacy/">Apple’s privacy policy</a>.</p>
+    <p>What is kept in iCloud is also covered by <a href="https://www.apple.com/legal/privacy/">Apple’s privacy policy</a>, and the Android backup by Google’s.</p>
   </section>
   <section>
     <h2>Adding by voice</h2>
-    <p>When you add by voice, the app uses the microphone and Apple’s speech recognition to turn what was said into text. Recognition runs on the device where the device supports it, and otherwise on Apple’s servers. The app does not keep the recording.</p>
+    <p>When you add by voice, the app uses the microphone and the phone’s speech recognition (Apple’s on iPhone; on Android the device’s speech service, usually Google’s) to turn what was said into text. Recognition runs on the device where the device supports it, and otherwise on that company’s servers. The app does not keep the recording.</p>
   </section>
   <section>
     <h2>Smart recognition with AI (optional)</h2>
     <p>This feature is off until you enter your own API key in the settings, for Google Gemini or Anthropic Claude. While it is on, the text of what you said or typed, together with the product names you have already used, is sent to the provider you chose, through your own account and key with that provider.</p>
     <ul>
       <li>That information is covered by the provider’s own terms and privacy policy. On Google’s free tier, for example, Google may use the content to improve its products.</li>
-      <li>The key is stored in the device Keychain. So that it does not have to be entered on every phone, it is passed to the other devices on the list inside the list’s encrypted copy in iCloud. It is never sent to the developer, and the developer cannot read it.</li>
+      <li>The key is stored on the phone only. So that it does not have to be entered on every phone, it is passed to the other devices on the list inside the list’s encrypted copy. It is never sent to the developer, and the developer cannot read it.</li>
       <li>Removing the key in the settings turns the feature off.</li>
     </ul>
   </section>
   <section>
     <h2>Camera and photos</h2>
-    <p>The camera and the photo library are used only to attach a photo of a receipt to a shopping trip, when you choose to. The photo is kept on the device, and an encrypted copy is kept in iCloud together with the list.</p>
+    <p>The camera and the photo library are used only to attach a photo of a receipt to a shopping trip, when you choose to. The photo is kept on the device, and an encrypted copy is kept together with the list.</p>
   </section>
   <section>
     <h2>Notifications</h2>
@@ -57,11 +57,11 @@
   </section>
   <section>
     <h2>Third parties</h2>
-    <p>The app contains no third-party SDKs, no advertising, and no analytics or crash-reporting tools. If you have chosen in iOS Settings to share usage data with developers, Apple may show the developer aggregated, anonymous usage and crash statistics.</p>
+    <p>The app contains no third-party advertising, analytics or crash-reporting SDKs. If you have chosen in your phone’s settings to share usage data with developers, Apple or Google may show the developer aggregated, anonymous usage and crash statistics.</p>
   </section>
   <section>
     <h2>Deleting your information</h2>
-    <p>Any product, trip, receipt or list can be deleted in the app, and the deletion is applied to the copy in iCloud and to the other devices on the list. Deleting the app deletes what is stored on the device. For anything else, contact us.</p>
+    <p>Any product, trip, receipt or list can be deleted in the app, and the deletion is applied to the encrypted copies and to the other devices on the list. Deleting the app deletes what is stored on the device. For anything else, contact us.</p>
   </section>
   <section>
     <h2>Children</h2>
